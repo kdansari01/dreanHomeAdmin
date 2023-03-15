@@ -1,0 +1,25 @@
+.home {
+  width: 100%;
+  display: flex;
+}
+.homeContainer {
+  height: 100vh;
+  // overflow-y: scroll;
+  // overflow-x: hidden;
+}
+// .sidebar{
+//     display: block;
+//     height: 100vh;
+//     overflow-y: scroll;
+//     overflow-x: hidden;
+//     scroll-behavior: smooth;
+//     ::-webkit-scrollbar-thumb{
+//         width: 3px;
+//         // display: none;
+//     }
+// }
+.chart {
+  // position: relative;
+  // float: right;
+  // border: 1px solid black;
+}
