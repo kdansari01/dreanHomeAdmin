@@ -14,14 +14,14 @@ const Dashboard = () => {
           <Search />
         </div> */}
 
-        <div className="w-75">
+        <div>
           {/* <Swiper
             spaceBetween={4}
             slidesPerView={2}
             onSlideChange={() => console.log("slide change")}
             onSwiper={(swiper) => console.log(swiper)}
           > */}
-            <Card />
+          <Card />
           {/* </Swiper> */}
         </div>
 

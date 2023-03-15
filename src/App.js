@@ -9,6 +9,9 @@ import AddNew from "./pages/addNew/AddNew";
 import Notification from "./pages/notification/Notification";
 import Profile from "./pages/profile/Profile";
 import Stats from "./pages/stats/Stats";
+import Order from "./pages/order/Order";
+import Earning from "./pages/earning/Earning";
+import MyBalance from "./pages/myBalance/MyBalance";
 
 function App() {
   return (
@@ -24,6 +27,9 @@ function App() {
             <Route exact path="/stats" element={<Stats />} />
             <Route exact path="/notification" element={<Notification />} />
             <Route exact path="/profile" element={<Profile />} />
+            <Route exact path="/order" element={<Order />} />
+            <Route exact path="/earning" element={<Earning />} />
+            <Route exact path="/my-balance" element={<MyBalance />} />
           </Routes>
         </Sidebar>
       </BrowserRouter>

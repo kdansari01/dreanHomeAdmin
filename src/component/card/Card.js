@@ -8,6 +8,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 // import AttachMoneyIcon from "@mui/icons-material/AttachMoney";
 import "./card.scss";
 import { CardDetails } from "../../data/Data";
+import { NavLink } from "react-router-dom";
 const Card = () => {
   return (
     <div className="container">
@@ -27,9 +28,9 @@ const Card = () => {
                   <div className="card-body">
                     <h5 className="card-title">{data.users}</h5>
                     <p className="card-text">{data.totUsers}</p>
-                    <a href="/" className="">
+                    <NavLink to={data.path} className="">
                       {data.link}
-                    </a>
+                    </NavLink>
                     {data.icon}
                   </div>
                 </div>
